@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--Assuming "Menu with Marquee" and "Contact Us" has been completed in Project 68 -->
+    <!--Assuming "Campus Life" and "Achievements" has been completed in Project 69-->
+    <!--Assuming "What's new" has been completed in Project 70-->
+    <div class="container">
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+            <h2 class="text-capitalize ">Our Alumni</h2>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/The_Minister_for_Tourism_and_Environment%2C_Maharashtra%2C_Shri_Aaditya_Thackeray_calling_on_the_Prime_Minister%2C_Shri_Narendra_Modi%2C_in_New_Delhi_on_February_21%2C_2020_%28Aditya_Thackeray%29_%28cropped%29.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">Aditya Thackeray</p>
+        </div>
+
+        <!-- Modal -->
+        <!-- Give bootstrap class modal fade-->
+        <div class="" id="school_alumni1">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                       <!--Give the close button- &times;-->
+                        <button type="button" class="close" data-dismiss="modal"></button>
+                        <h4 class="modal-title">Aditya Thackeray</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/The_Minister_for_Tourism_and_Environment%2C_Maharashtra%2C_Shri_Aaditya_Thackeray_calling_on_the_Prime_Minister%2C_Shri_Narendra_Modi%2C_in_New_Delhi_on_February_21%2C_2020_%28Aditya_Thackeray%29_%28cropped%29.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">He is an Indian Politician serving as Cabinet Minister of Tourism and Environment Government of Maharashtra<br>
+                            <a href="https://en.wikipedia.org/wiki/Aaditya_Thackeray"><b>To Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Vidya_Balan_promoting_Mission_Mangal.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">Vidya Balan</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="school_alumni2">
+            <!-- Give bootstrap class modal-dialog-->
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Vidya Balan</h4>
+                    </div>
+                     <!-- Give bootstrap class modal-body-->
+                    <div class="modal-body">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Vidya_Balan_promoting_Mission_Mangal.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">Vidya Balan (born 1 January 1979) is an Indian actress<br>
+                            <a href="https://en.wikipedia.org/wiki/Vidya_Balan"><b>To Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni3">
+            <img src="data:image/jpeg;base64,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" class="img-responsive">
+            <hr>
+            <p class="text-primary">Mukesh Ambani</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="school_alumni3">
+            <div class="modal-dialog">
+                <!-- Give bootstrap class modal-content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Mukesh Ambani</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <img src="data:image/jpeg;base64,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">
+                        <!-- Give bootstrap class p_modal-->
+                        <p class="">He is an Indian billionaire business magnate, and the chairman, managing director, and largest shareholder of Reliance Industries Ltd. <br>
+                            <a href="https://en.wikipedia.org/wiki/Mukesh_Ambani"><b>To Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpskaRUFZIt603-tdSETBPlO7FqIm_PVfzMfORQTR1uWsL98_1&usqp=CAU" class="img-responsive">
+            <hr>
+            <p class="text-primary">Rajdeep Sardesai</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="school_alumni4">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Rajdeep Sardesai</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpskaRUFZIt603-tdSETBPlO7FqIm_PVfzMfORQTR1uWsL98_1&usqp=CAU" class="img-responsive img_modal">
+                        <p class="p_modal">He is an Indian news anchor and author.<br>
+                            <a href="https://en.wikipedia.org/wiki/Rajdeep_Sardesai"><b>To Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
